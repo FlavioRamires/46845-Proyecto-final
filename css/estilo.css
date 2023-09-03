@@ -1,0 +1,147 @@
+h1 {
+    color: orangered;
+}
+
+.titulos {
+    color: orangered;
+    text-align: center;
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+
+form {
+    color: orangered;
+    text-align: center;
+}
+
+.titulos2 {
+    color: orangered;
+    text-align: center;
+    margin-top: 180px;
+}
+
+footer {
+    color: lightcoral;
+    font-size: 15px;
+    text-align: center;
+}
+
+.texto {
+    text-align: center;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.menu li {
+    display: inline;
+    font-size: 10px;
+}
+
+
+
+body {
+    background-color: blanchedalmond;
+}
+
+
+footer {
+    border-top: 1px orangered solid;
+    text-align: center;
+    margin-top: 250px;
+    margin-bottom: 20px;
+    margin-left: 80px;
+    margin-right: 60px;
+    padding-top: 10px;
+    padding-bottom: 100px;
+    padding-left: 90px;
+    padding-right: 50px;
+}
+
+
+.logo {
+    width: 150px;
+    margin-left: 70px;
+    cursor: pointer;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+}
+
+.img {
+    display: flex;
+    height: 300px;
+}
+
+
+
+.parrafo1 {
+    color: rgb(164, 66, 66);
+    text-align: justify;
+    font-size: 20px;
+    padding-bottom: 6px;
+}
+
+
+.items {
+    color: rgb(164, 66, 66);
+    font-size: 20px;
+
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.puro {
+    color: black;
+    text-decoration: underline;
+}
+
+.ubicacion {
+    display: flex;
+    width: 300px;
+    padding: 20px;
+}
+
+.direccion {
+    color: rgb(164, 66, 66);
+    font-size: 10px;
+    margin-left: 480px;
+}
+
+.email {
+    color: rgb(164, 66, 66);
+    font-size: 10px;
+    margin-left: 480px;
+}
+
+.telefono {
+    color: rgb(164, 66, 66);
+    font-size: 10px;
+    margin-left: 480px;
+}
+
+.circulo {
+    color: rgb(164, 66, 66);
+    font-size: 20px;
+}
+
+.botton {
+    border-radius: 4px;
+    background-color: orangered;
+    color: white;
+    border: none;
+}
+
