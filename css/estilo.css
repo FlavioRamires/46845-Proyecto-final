@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 h1 {
@@ -10,6 +9,7 @@ h1 {
     text-align: center;
     padding-bottom: 80px;
     padding-top: 80px;
+    font-size: 30px;
 }
 
 form {
@@ -23,11 +23,6 @@ form {
     margin-top: 180px;
 }
 
-footer {
-    color: lightcoral;
-    font-size: 15px;
-    text-align: center;
-}
 
 .texto {
     text-align: center;
@@ -36,7 +31,7 @@ footer {
 }
 
 a {
-    color:black;
+    color: black;
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -50,7 +45,7 @@ a {
 
 body {
     background-color: blanchedalmond;
-    font-family: 'Roboto',sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 11px;
 }
 
@@ -66,6 +61,11 @@ footer {
     padding-bottom: 100px;
     padding-left: 90px;
     padding-right: 50px;
+    color: lightcoral;
+    font-size: 15px;
+    text-align: center;
+    background-color: blanchedalmond;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 
@@ -84,7 +84,7 @@ header {
 
 .img {
     display: flex;
-    height: 300px;
+    height: 200px;
 }
 
 
@@ -116,7 +116,7 @@ div {
 
 .ubicacion {
     display: flex;
-    width: 300px;
+    width: 200px;
     padding: 20px;
 }
 
@@ -143,14 +143,78 @@ div {
     font-size: 20px;
 }
 
-.botton {
+.botton2 {
+    border-radius: 4px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    margin-left: 10px;
+    
+}
+
+.miFondo {
+    background-color: blanchedalmond;
+}
+
+.miLink:hover {
+    background-color: orangered;
+    color: white;
+}
+/*footer boostrap*/
+.footer2 { 
+    text-align: center;
+    margin-top: 250px;
+    margin-bottom: 20px;
+    margin-left: 80px;
+    margin-right: 60px;
+    padding-top: 10px;
+    padding-bottom: 100px;
+    padding-left: 90px;
+    padding-right: 50px;
+    font-family: 'roboto';
+    color: lightcoral;
+    font-size: 20px;
+    
+}
+
+.img-fluid {
+    padding: 20px;
+    width: 300px;
+    margin-left: 410px;
+}
+
+.botton2 {
+    margin-top: 2px;
     border-radius: 4px;
     background-color: orangered;
     color: white;
     border: none;
 }
 
-.miFondo{ background-color: blanchedalmond;}
+.nombre {
+    color: rgb(164, 66, 66);
+    font-size: 20px;
+    padding-right: 90px;
+    padding-bottom:20px;
+}
 
-.miLink:hover{background-color: orangered;
-        color: white;}
+.telef {
+    color: rgb(164, 66, 66);
+    font-size: 20px;
+    padding-right: 9px;
+    padding-bottom: 20px;
+}
+
+.correo {
+    color: rgb(164, 66, 66);
+    font-size: 20px;
+    padding-right: 90px;
+    padding-bottom: 20px;
+}
+
+.Presupuesto {
+    color: rgb(164, 66, 66);
+    font-size: 20px;
+    padding-right: 90px;
+    padding-bottom: 20px;
+}
