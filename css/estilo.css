@@ -114,27 +114,27 @@ div {
 }
 
 .ubicacion {
-    display: flex;
+    
     width: 200px;
-    padding: 20px;
+    padding-right: 190px;
 }
 
 .direccion {
     color: rgb(164, 66, 66);
     font-size: 10px;
-    margin-left: 480px;
+    margin-left: 510px;
 }
 
 .email {
     color: rgb(164, 66, 66);
     font-size: 10px;
-    margin-left: 480px;
+    margin-left: 510px;
 }
 
 .telefono {
     color: rgb(164, 66, 66);
     font-size: 10px;
-    margin-left: 480px;
+    margin-left: 510px;
 }
 
 .circulo {
@@ -180,9 +180,10 @@ div {
 }
 
 .img-fluid {
+    display: flex;
     padding: 20px;
-    width: 300px;
-    margin-left: 410px;
+    width: 150px;
+    margin-left: 480px;
 }
 
 .botton2 {
