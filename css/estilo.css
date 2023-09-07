@@ -62,10 +62,9 @@ footer {
     padding-left: 90px;
     padding-right: 50px;
     color: lightcoral;
-    font-size: 15px;
-    text-align: center;
+    font-size: 8px;
     background-color: blanchedalmond;
-    font-family: 'Times New Roman', Times, serif;
+    
 }
 
 
@@ -161,19 +160,22 @@ div {
     color: white;
 }
 /*footer boostrap*/
-.footer2 { 
+ .footer2 { 
+    
     text-align: center;
     margin-top: 250px;
     margin-bottom: 20px;
     margin-left: 80px;
     margin-right: 60px;
     padding-top: 10px;
-    padding-bottom: 100px;
+    padding-bottom: 60px;
     padding-left: 90px;
     padding-right: 50px;
     font-family: 'roboto';
     color: lightcoral;
-    font-size: 20px;
+    font-size: 8px;
+    background-color: blanchedalmond;
+
     
 }
 
@@ -218,3 +220,5 @@ div {
     padding-right: 90px;
     padding-bottom: 20px;
 }
+
+.colorr{color: orangered;}
