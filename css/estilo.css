@@ -61,6 +61,7 @@ a {
     color: black;
     text-decoration: none;
     text-transform: uppercase;
+    font-size: 2rem;
 }
 
 .menu li {
@@ -73,9 +74,14 @@ a {
 body {
     background-color: blanchedalmond;
     font-family: 'Roboto', sans-serif;
-    font-size: 11px;
+    font-size: 0.7rem;
+    
+   
 }
+main {
+min-height: 50vh;
 
+}
 
 .logo {
     width: 150px;
@@ -93,7 +99,7 @@ header {
 
 .parrafo1 {
     color: rgb(164, 66, 66);
-    text-align: center;
+    text-align: justify;
     font-size: 20px;
 }
 
@@ -123,29 +129,24 @@ div {
 }
 
 .direccion {
-    display: flex;
+    
     color: rgb(164, 66, 66);
+    text-align: center;
     font-size: 10px;
-    margin-left: 510px;
-    margin-bottom: 2px;
-    padding-top: 15px;
 }
 
 .email {
-    display: flex;
+    text-align: center;
     color: rgb(164, 66, 66);
     font-size: 10px;
-    margin-left: 510px;
-    margin-bottom: 2px;
     
 }
 
 .telefono {
-    display: flex;
+    text-align: center;
     color: rgb(164, 66, 66);
     font-size: 10px;
-    margin-left: 510px;
-    margin-bottom: 2px;
+   
 }
 
 .circulo {
@@ -177,30 +178,51 @@ div {
 
 /*footer boostrap*/
 .footer2 {
-
-    text-align: center;
-    margin-top: 250px;
-    margin-bottom: 10px;
-    margin-left: 80px;
-    margin-right: 60px;
-    padding-top: 10px;
-    padding-bottom: 60px;
-    padding-left: 90px;
-    padding-right: 50px;
+    margin: 100px,60px,10px,80px;
     font-family: 'roboto';
-    color: lightcoral;
-    font-size: 7px;
+    font-size: 1.1rem;
+    color: lightcoral; 
     background-color: blanchedalmond;
-
-
 }
+
+
+
+
+
 .container {display: flex;
     justify-content: center;
     align-items: center;
     height: 300px;
     
 }
-
+.map-container {
+    text-align: center;
+  }
+  #map {
+    width: 100px;
+    height: 300px;
+    
+ 
+  }
+  
+  
+  p {
+    margin-bottom: 100px;
+  }
+  
+  
+  .info-list {
+    list-style: none; 
+    padding: 0; 
+    margin: 20px 90px 0 0;
+    color: orangered;
+    font-size: 0,3rem;
+  }
+  
+  .info-list li {
+    margin: 5px 0; 
+  }
+  
 
 
 .img-fluid {width: 300px;
