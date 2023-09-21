@@ -1,0 +1,110 @@
+/*Formulario*/
+
+
+.ubicacion {
+    width: 200px;
+    padding-right: 190px;
+}
+
+.direccion {
+    color: $color-rgb;
+    text-align: center;
+    font-size: 10px;
+}
+
+.correo {
+    color: $color-rgb;
+    font-size: 20px;
+    padding-right: 90px;
+    padding-bottom: 20px;
+  }
+.telefono {
+    text-align: center;
+    color: $color-rgb;
+    font-size: 10px;
+}
+
+.botton2 {
+    border-radius: 4px;
+    background-color: $color-orangered;
+    color: $color-white;
+    border: none;
+    margin: 0 15px 30px 0;
+    cursor: pointer;
+}
+
+.miFondo {
+    background-color: blanchedalmond;
+}
+
+.miLink:hover {
+    background-color: orangered;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.map-container {
+    text-align: center;
+}
+
+#map {
+    width: 100px;
+    height: 300px;
+}
+
+p {
+    margin-bottom: 100px;
+}
+
+.info-list {
+    display: flexbox;
+    list-style: none;
+    padding: 0;
+    margin: 20px 90px 0 0;
+    color: $color-orangered;
+    font-size: 0, 3rem;
+
+    li {
+        margin: 5px 0;
+    }
+}
+
+
+
+.nombre {
+    color: $color-orangered;
+    font-size: 20px;
+    padding-right: 90px;
+    padding-bottom: 20px;
+}
+
+.telef {
+    color: $color-rgb;
+    font-size: 20px;
+    padding-right: 9px;
+    padding-bottom: 20px;
+}
+
+.correo {
+    color: $color-rgb;
+    font-size: 20px;
+    padding-right: 90px;
+    padding-bottom: 20px;
+  }
+  
+.Presupuesto {
+    color: $color-rgb;
+    font-size: 20px;
+    padding-right: 90px;
+    padding-bottom: 20px;
+}
+
+.colorr {
+    color: $color-orangered;
+}

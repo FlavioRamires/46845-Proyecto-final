@@ -1,0 +1,29 @@
+/*Header*/
+
+@mixin anclas {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+}
+
+.menu li {
+    display: inline;
+    font-size: 10px;
+}
+
+a {
+   @include anclas;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.logo {
+    width: 150px;
+    cursor: pointer;
+}
