@@ -44,7 +44,7 @@ a {
 .titulos {
   color: orangered;
   text-align: center;
-  padding-top: 1px;
+  padding-top: 6px;
   margin-bottom: 30px;
   font-size: 30px;
 }
@@ -76,15 +76,18 @@ form {
   padding-top: 10px;
   margin-bottom: 70px;
   font-size: 30px;
+  margin-left: 100px;
 }
 
 .titulos4 {
   color: orangered;
   text-align: center;
-  padding-top: 1px;
+  padding-top: 10px;
   margin-bottom: 70px;
   font-size: 30px;
 }
+
+.video {margin-left: 100px;}
 
 main {
   min-height: 50vh;
@@ -170,7 +173,6 @@ div {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 300px;
 }
 
 .map-container {
