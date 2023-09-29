@@ -64,10 +64,14 @@ form {
 
 .titulos2 {
   color: orangered;
-  text-align: center;
-  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  text-align:center;
+  font-size: 25px;
   padding: 3px;
   margin-bottom: 50px;
+  
+  
 }
 
 .titulos3 {
@@ -77,6 +81,8 @@ form {
   margin-bottom: 70px;
   font-size: 30px;
   margin-left: 100px;
+  display: flex;
+  justify-content: center;
 }
 
 .titulos4 {
@@ -87,7 +93,10 @@ form {
   font-size: 30px;
 }
 
-.video {margin-left: 100px;}
+.video {
+  display: flex;
+  padding-left: 350px;
+}
 
 main {
   min-height: 50vh;
@@ -95,7 +104,7 @@ main {
 
 .parrafo1 {
   color: rgb(164, 66, 66);
-  text-align: justify;
+  text-align:justify;
   font-size: 20px;
 }
 
@@ -114,6 +123,8 @@ div {
   font-size: 15px;
   color: black;
   text-decoration: underline;
+  display: flex;
+  justify-content: center;
 }
 
 .circulo {
@@ -168,15 +179,23 @@ div {
   background-color: orangered;
   color: white;
 }
+.container1{
+display: flex;
+justify-content: left;
+align-content: left;
+
+}
 
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
-}
+  }
 
 .map-container {
-  text-align: center;
+  display: flex;
+  justify-content: right;
+  align-content: right;
 }
 
 #map {
@@ -189,12 +208,14 @@ p {
 }
 
 .info-list {
-  display: flexbox;
+  display: flex;
   list-style: none;
   padding: 0;
   margin: 20px 90px 0 0;
   color: orangered;
   font-size: 0, 3rem;
+  justify-content: right;
+  align-content: right;
 }
 .info-list li {
   margin: 5px 0;
@@ -235,7 +256,8 @@ p {
 }
 
 .container-fluid{ display: flex;
-  flex-direction: column;}
+  flex-direction: column;
+}
 
 /*footer*/
 .footer2 {
