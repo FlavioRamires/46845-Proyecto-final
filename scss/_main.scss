@@ -4,7 +4,7 @@
 .titulos {
     color: $color-orangered;
     text-align: center;
-    padding-top: 1px;
+    padding-top: 6px;
     margin-bottom: 30px;
     font-size: 30px;
 }
@@ -24,8 +24,10 @@ form {
 
 .titulos2 {
     color: $color-orangered;
+    display: flex
+    justify-content: center
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
     padding: 3px;
     margin-bottom: 50px;
 }
@@ -36,12 +38,16 @@ form {
     padding-top: 10px;
     margin-bottom: 70px;
     font-size: 30px;
+    margin-left: 100px
+    display: flex
+    justify-content: center
+
 }
 
 .titulos4 {
     color: $color-orangered;
     text-align: center;
-    padding-top: 1px;
+    padding-top: 10px;
     margin-bottom: 70px;
     font-size: 30px;
 }
@@ -52,13 +58,14 @@ main {
 
 .parrafo1 {
     color: $color-rgb;
-    text-align: justify;
+    text-align: center;
     font-size: 20px;
 }
 
 .items {
     color: $color-rgb;
     font-size: 20px;
+    padding-left: 50px
 }
 
 div {
@@ -71,14 +78,29 @@ div {
     font-size: 15px;
     color: black;
     text-decoration: underline;
+    display: flex;
+   justify-content: center;
 }
 
 .circulo {
     color: $color-rgb;
     font-size: 20px;
     margin-bottom: 80px;
+    padding-left: 80px
+
 }
 
 .img-fluid {
     width: 300px;
 }
+
+.compromiso {
+  display: flex;
+  align-content: center;
+  justify-content: center;}
+
+.container5 {
+  padding: 20px;
+  display: flex;
+  align-content: left;
+  text-align: left;}

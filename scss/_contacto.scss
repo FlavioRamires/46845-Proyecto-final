@@ -48,9 +48,7 @@
     align-items: center;
 }
 
-.map-container {
-    text-align: center;
-}
+
 
 #map {
     width: 100px;
@@ -62,12 +60,12 @@ p {
 }
 
 .info-list {
-    display: flexbox;
+    padding-top: 43px
     list-style: none;
     padding: 0;
     margin: 20px 90px 0 0;
     color: $color-orangered;
-    font-size: 0, 3rem;
+    font-size: 0,3rem;
 
     li {
         margin: 5px 0;
@@ -100,10 +98,14 @@ p {
 .Presupuesto {
     color: $color-rgb;
     font-size: 20px;
-    padding-right: 90px;
+    padding-right: 140px;
     padding-bottom: 20px;
 }
 
 .colorr {
     color: $color-orangered;
 }
+
+.container-fluid
+  display: flex
+  flex-direction: column
