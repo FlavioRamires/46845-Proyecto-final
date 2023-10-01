@@ -13,3 +13,8 @@ body {
 h1 {
     color: $color-orangered;
 }
+
+.container-fluid {
+    display: flex;
+    flex-direction: column;
+  }

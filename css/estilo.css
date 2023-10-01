@@ -16,6 +16,11 @@ h1 {
   color: orangered;
 }
 
+.container-fluid {
+  display: flex;
+  flex-direction: column;
+}
+
 /*Header*/
 header {
   display: flex;
@@ -40,6 +45,16 @@ a {
   width: 150px;
   cursor: pointer;
 }
+
+.miFondo {
+  background-color: blanchedalmond;
+}
+
+.miLink:hover {
+  background-color: orangered;
+  color: white;
+}
+
 
 /*main*/
 .titulos {
@@ -149,9 +164,13 @@ div {
   padding: 20px;
   display: flex;
   text-align: left;
-
 }
 
+
+
+.colorr {
+  color: orangered;
+}
 
 
 
@@ -185,40 +204,24 @@ div {
   background-color: orangered;
   color: white;
   border: none;
-  margin: 0 15px 30px 0;
+  margin: 0px 15px 30px 0px;
   cursor: pointer;
 }
-
-.miFondo {
-  background-color:blanchedalmond;
-}
-
-.miLink:hover {
-  background-color: orangered;
-  color: white;
-}
-
-
 .container2 {
   display: flex;
-
-
-}
-
-.container1 {
-  display: flex;
-
 }
 
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 200px;
+  padding-left: 70px;
 }
 
-
-
-
+.container1 {
+  display: flex;
+  }
 
 p {
   margin-bottom: 100px;
@@ -233,7 +236,10 @@ p {
 
 }
 
+.form-group{
+margin-left: 95px;
 
+}
 
 
 .nombre {
@@ -241,16 +247,16 @@ p {
   font-size: 20px;
   padding-right: 90px;
   padding-bottom: 20px;
-  margin-left: 60px;
+  margin-left: 80px;
 
 }
 
 .telef {
   color: rgb(164, 66, 66);
   font-size: 20px;
-  padding-right: 29px;
+  padding-left: 1px;
   padding-bottom: 20px;
-  margin-left: 60px;
+  margin-left: 80px;
 }
 
 .correo {
@@ -258,25 +264,19 @@ p {
   font-size: 20px;
   padding-right: 90px;
   padding-bottom: 20px;
-  margin-left: 60px;
+  margin-left: 80px;
 }
 
 .Presupuesto {
   color: rgb(164, 66, 66);
   font-size: 20px;
-  padding-right: 140px;
+  padding-right: 110px;
   padding-bottom: 20px;
-  margin-left: 60px;
+  margin-left: 80px;
 }
 
-.colorr {
-  color: orangered;
-}
 
-.container-fluid {
-  display: flex;
-  flex-direction: column;
-}
+
 
 /*footer*/
 .footer2 {
@@ -307,7 +307,7 @@ p {
 
 @media(max-width:500px) {
   .miLink {
-    background:rgb(157, 159, 161);
+    background: rgb(157, 159, 161);
     opacity: 0.5;
   }
 }
