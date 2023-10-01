@@ -303,6 +303,7 @@ p {
 @media(max-width:500px) {
   .miLink {
     background:rgb(157, 159, 161);
+    opacity: 0.5;
   }
 }
 
