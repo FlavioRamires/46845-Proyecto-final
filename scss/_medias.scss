@@ -28,5 +28,10 @@
     flex-direction: column;
   }
 }
+@media(max-width:500px) {
+  form input {
+    width:50%;
+  }
+}
 
 
