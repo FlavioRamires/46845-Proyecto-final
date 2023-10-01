@@ -132,7 +132,6 @@ main {
 div {
   display: flex;
   justify-content: center;
-  width: 100%;
 }
 
 .puro {
@@ -209,13 +208,14 @@ div {
 }
 .container2 {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 200px;
   padding-left: 70px;
 }
 
@@ -232,7 +232,7 @@ p {
   list-style: none;
   margin: 20px 90px 0 0;
   color: orangered;
-  font-size: 0, 3rem;
+  font-size: 0,3rem;
 
 }
 
@@ -245,34 +245,36 @@ margin-left: 95px;
 .nombre {
   color: rgb(164, 66, 66);
   font-size: 20px;
-  padding-right: 90px;
-  padding-bottom: 20px;
-  margin-left: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
 
 }
 
 .telef {
   color: rgb(164, 66, 66);
   font-size: 20px;
-  padding-left: 1px;
-  padding-bottom: 20px;
-  margin-left: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
 }
 
 .correo {
   color: rgb(164, 66, 66);
   font-size: 20px;
-  padding-right: 90px;
-  padding-bottom: 20px;
-  margin-left: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .Presupuesto {
   color: rgb(164, 66, 66);
   font-size: 20px;
-  padding-right: 110px;
-  padding-bottom: 20px;
-  margin-left: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 
@@ -309,6 +311,12 @@ margin-left: 95px;
   .miLink {
     background: rgb(157, 159, 161);
     opacity: 0.5;
+  }
+}
+
+@media(max-width:900px) {
+  .container {
+    flex-direction: column;
   }
 }
 

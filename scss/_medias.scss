@@ -22,3 +22,11 @@
     opacity: 0.5;
   }
 }
+
+@media(max-width:900px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
+
