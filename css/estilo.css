@@ -188,8 +188,7 @@ div {
 .correo {
   color: rgb(164, 66, 66);
   font-size: 20px;
-  padding-right: 90px;
-  padding-bottom: 20px;
+  
 }
 
 .telefono {
@@ -206,13 +205,15 @@ div {
   margin: 0px 15px 30px 0px;
   cursor: pointer;
 }
+
 .container2 {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
-.container {
+.container-mapa {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -221,7 +222,7 @@ div {
 
 .container1 {
   display: flex;
-  }
+}
 
 p {
   margin-bottom: 100px;
@@ -236,45 +237,36 @@ p {
 
 }
 
-.form-group{
-margin-left: 95px;
-
+.form-group {
+  margin-left: 95px;
 }
 
 
 .nombre {
   color: rgb(164, 66, 66);
   font-size: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  
+
+
 
 }
 
 .telef {
   color: rgb(164, 66, 66);
   font-size: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  
+
+
 }
 
 .correo {
   color: rgb(164, 66, 66);
   font-size: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
 }
 
 .Presupuesto {
   color: rgb(164, 66, 66);
   font-size: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
 }
 
 
