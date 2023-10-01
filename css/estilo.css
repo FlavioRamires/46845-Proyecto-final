@@ -190,13 +190,14 @@ div {
 }
 
 .miFondo {
-  background-color: blanchedalmond;
+  background-color:blanchedalmond;
 }
 
 .miLink:hover {
   background-color: orangered;
   color: white;
 }
+
 
 .container2 {
   display: flex;
@@ -299,5 +300,10 @@ p {
   }
 }
 
+@media(max-width:500px) {
+  .miLink {
+    background:rgb(157, 159, 161);
+  }
+}
 
 /*# sourceMappingURL=estilo.css.map */
