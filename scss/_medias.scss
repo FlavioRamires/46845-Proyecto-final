@@ -33,7 +33,12 @@
     width:50%;
   }
 }
-
+@media(max-width:500px) {
+  form div {
+    display: flex;
+    flex-direction: column;
+  }
+}
 
 
 
