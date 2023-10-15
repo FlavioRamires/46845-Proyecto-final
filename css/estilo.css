@@ -238,6 +238,7 @@ p {
 
 .form-group {
   margin-left: 95px;
+  padding: 10px;
 }
 
 
@@ -274,6 +275,7 @@ form {
   align-items: flex-end;
   justify-content: center;
 }
+
 
 
 
@@ -320,7 +322,7 @@ form {
 
 @media(max-width:500px) {
   form input {
-    width: 50%;
+    width: 100%;
   }
 }
 
