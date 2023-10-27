@@ -228,17 +228,17 @@ p {
 }
 
 .info-list {
-  padding-top: 43px;
-  list-style: none;
-  margin: 20px 90px 0 0;
-  color: orangered;
-  font-size: 0,3rem;
+  padding-top:43px;
+  list-style:none;
+  margin:20px 90px 0 0;
+  color:orangered;
+  font-size:0,3rem;
 
 }
 
 .form-group {
-  margin-left: 95px;
-  padding: 10px;
+  margin-left:95px;
+  padding:10px;
 }
 
 
@@ -266,6 +266,11 @@ p {
 .Presupuesto {
   color: rgb(164, 66, 66);
   font-size: 20px;
+  
+
+}
+
+.form-label {margin: 10px;
 
 }
 
